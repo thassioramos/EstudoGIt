@@ -1,0 +1,74 @@
+
+Dentro da pasta escolhida como git 
+"utilize o gitbash após baixar o git no pc"
+[ sao adicionados sem dar erro ou acerto ]
+ git config --global user.name "Thassio 0.1" 
+Adiciona o nome
+ git config --global user.email "thassio081@gmail.com"
+Adiciona email
+ git config --global user.name
+Visualiza o name criado
+ git config --global user.email
+Visualisa o email criado
+git init
+Inicia o git nesta pasta 
+git add hello.txt <--- arquivo a ser adicionado
+ Adiciona um arquivo ao git
+git add . ou --all ou -A
+ Adiciona vários arquivos ao git 
+git rm --cached nomedoarquivo
+ Remove um arquivo do repositorio porém nao da pasta
+git rm --cached -r . 
+Remove todos os arquivos do repositório porém nao da pasta
+git commit -m "Nome do arquivo a ser commitado" 
+Adiciona o arquivo no git 
+git diff
+Mostra a difereça/alteração feita no arquivo Arquivos Unstaged/staged
+git diff --cached ou git diff --staged
+Mostra as modificações que foram feitas em tods as fases 
+git log 
+Mostra dos commits que foram feitos
+Head
+Mostra o commit mais recente
+Digitiar Q para sair do Log 
+git log --oneline
+mostra o log em uma linha 
+git log 1 
+Mostra so um commit
+git log 2 
+Mostra dois commits
+git log 3 
+Mostra 3 commits 
+git log --oneline 2
+Mostra o log 2 em umma linha
+git log -p 
+Mostra a atualização feita Patch
+git log --stat
+Mostra um log mais detalhado
+git commit --amend -m " Nome do Commit"
+Muda  o titulo do ultimo commit
+git commit --amend --no-edit
+Adiciona arquivo a um commit ja enviado porem nao modifica o titulo
+git checkout 
+da um git log --online irá mostrar as versoes que ja foram commitadas
+voce clica no token da versão e aperta shift + insert que é o control V do token
+git checkout + token da versão 
+Para voltar para o master 
+git checkout master 
+Voltar para ultima versão do arquivo modificado (rastreados / tracked)
+git checkout + nome do arquivo  Para versão que existe no commit
+Remove os arquivos da pasta mesmo antes de serem commitados( nao rastreados / untracked )
+git clean -f
+Remove todos os arquivos rastreados /Tracked do git 
+git reset --hard 
+
+IGNORANDO ARQUIVOS 
+
+ignorar arquivos extenção 
+
+criar arquivo de texto .gitignore
+e dentro adicionar as extenções que nao quer adicionar
+ex: *html 
+
+
+
