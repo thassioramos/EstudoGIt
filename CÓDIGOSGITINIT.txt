@@ -1,6 +1,6 @@
-
+extencao do vscode para facilitar = GITLENS
 Dentro da pasta escolhida como git 
-"utilize o gitbash após baixar o git no pc"
+"utilize o gitbash após baixar o git no pc ou pode usar o vscode "
 [ sao adicionados sem dar erro ou acerto ]
  git config --global user.name "Thassio 0.1" 
 Adiciona o nome
@@ -61,6 +61,9 @@ Remove os arquivos da pasta mesmo antes de serem commitados( nao rastreados / un
 git clean -f
 Remove todos os arquivos rastreados /Tracked do git 
 git reset --hard 
+git restore + nome do arquivo
+remove alteraçoes feitas ou arquivos modificados use o --s ou --staged para restaurar 
+arquivos ja no staged.
 
 IGNORANDO ARQUIVOS 
 
