@@ -70,7 +70,6 @@ git fetch
 Mostra os arquivos que tem no repositório remoto e nao tem na maquina 
 git push 
 Manda o arquivo do repositorio interno para o remoto
-
 IGNORANDO ARQUIVOS.
 ignorar arquivos extenção 
 criar arquivo de texto .gitignore
