@@ -74,7 +74,7 @@ IGNORANDO ARQUIVOS.
 ignorar arquivos extenção 
 criar arquivo de texto .gitignore
 e dentro adicionar as extenções que nao quer adicionar
-ex: *html 
+ex: *html
 
 
 
