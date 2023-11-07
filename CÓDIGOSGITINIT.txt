@@ -72,6 +72,18 @@ Git remote
 Para saber os repositorios existentes no remoto
 git push origin master <- se for no master ou main se for no main 
 Manda o arquivo do repositorio interno para o remoto
+
+Git branch + nome da branch 
+Cria uma nova branch no github
+Git branch 
+Mostra as branches que existem
+Git log --oneline --decorate
+Alem de mostrar o log em uma linha mostra a branch que o código está
+Git checkout + nome da branch 
+Vai para a branch desejada 
+Git merge + nome da branch que eu quero trazer 
+Mescla branches tem que estar na branch que quer adicionar a outra.
+
 IGNORANDO ARQUIVOS.
 ignorar arquivos extenção 
 criar arquivo de texto .gitignore
