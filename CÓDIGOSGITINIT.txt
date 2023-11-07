@@ -68,7 +68,9 @@ Git Pull
 puxa os arquivos do repositorio remoto para o repositorio interno
 git fetch 
 Mostra os arquivos que tem no repositório remoto e nao tem na maquina 
-git push 
+Git remote 
+Para saber os repositorios existentes no remoto
+git push origin master <- se for no master 
 Manda o arquivo do repositorio interno para o remoto
 IGNORANDO ARQUIVOS.
 ignorar arquivos extenção 
