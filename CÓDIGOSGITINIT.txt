@@ -70,7 +70,7 @@ git fetch
 Mostra os arquivos que tem no repositório remoto e nao tem na maquina 
 Git remote 
 Para saber os repositorios existentes no remoto
-git push origin master <- se for no master 
+git push origin master <- se for no master ou main se for no main 
 Manda o arquivo do repositorio interno para o remoto
 IGNORANDO ARQUIVOS.
 ignorar arquivos extenção 
