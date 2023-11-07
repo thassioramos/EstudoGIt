@@ -64,11 +64,14 @@ git reset --hard
 git restore + nome do arquivo
 remove alteraçoes feitas ou arquivos modificados use o --s ou --staged para restaurar 
 arquivos ja no staged.
-
-IGNORANDO ARQUIVOS 
-
+Git Pull
+puxa os arquivos do repositorio remoto para o repositorio interno
+git fetch 
+Mostra os arquivos que tem no repositório remoto e nao tem na maquina 
+git push 
+Manda o arquivo do repositorio interno para o remoto
+IGNORANDO ARQUIVOS.
 ignorar arquivos extenção 
-
 criar arquivo de texto .gitignore
 e dentro adicionar as extenções que nao quer adicionar
 ex: *html 
